@@ -1,0 +1,36 @@
+body{
+    margin:0;
+    padding:0;
+    background:#f4f4f4;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    font-family:Arial, sans-serif;
+}
+
+.contenedor{
+    background:white;
+    padding:40px;
+    border-radius:20px;
+    text-align:center;
+    box-shadow:0px 0px 20px rgba(0,0,0,.2);
+}
+
+h1{
+    color:#28a745;
+    margin-bottom:30px;
+}
+
+.boton{
+    text-decoration:none;
+    background:#ff4d6d;
+    color:white;
+    padding:12px 25px;
+    border-radius:10px;
+    font-size:18px;
+}
+
+.boton:hover{
+    opacity:.8;
+}
